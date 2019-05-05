@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Task">
+      <UniqueIdentifier>{8bc692a2-14cd-4cf8-be83-894e48471ff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Task">
+      <UniqueIdentifier>{33608c99-c2cf-4a7b-ad59-354ae547aaf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\PE">
+      <UniqueIdentifier>{8cdba6fc-6a2c-44a7-8fed-dd6a881f0338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Clean">
+      <UniqueIdentifier>{5b64b6a4-2469-436b-b2a8-7bd2a13e96d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\AntiVirus">
+      <UniqueIdentifier>{3df95b77-9acc-446e-acdd-d33e8da32315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\PE">
+      <UniqueIdentifier>{04fb56e4-4d78-4807-99b6-7bc2c383abce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Clean">
+      <UniqueIdentifier>{0373602f-72ff-4c00-8ee4-f5021b59ade0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Protect">
+      <UniqueIdentifier>{d498b386-b067-479d-922e-f6f16c5d1e68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Protect">
+      <UniqueIdentifier>{a64ed971-3074-4c17-b884-4640b905a6d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\TOOLS">
+      <UniqueIdentifier>{e963e45c-baef-412e-8a61-e388766faea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\控件">
+      <UniqueIdentifier>{981b14e1-e600-4c7b-b923-564a26572e63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Antivirus">
+      <UniqueIdentifier>{0c748a0b-0f32-4c5a-abca-d9b30dbb2eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\控件">
+      <UniqueIdentifier>{91b98c94-fffa-4008-8051-2c233b3b3e98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\TOOLS">
+      <UniqueIdentifier>{55b8e11d-327e-4b9b-a658-35331b2df7be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PEDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dia_Details.h">
+      <Filter>头文件\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Dia_WinProcess1.h">
+      <Filter>头文件\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Dia_Disk1.h">
+      <Filter>头文件\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Dia_Ram1.h">
+      <Filter>头文件\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Dia_Status1.h">
+      <Filter>头文件\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>头文件\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTab.h">
+      <Filter>头文件\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Dia_Heap.h">
+      <Filter>头文件\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Dia_Thread.h">
+      <Filter>头文件\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="HistogramCtrl.h">
+      <Filter>头文件\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Dia_Mod.h">
+      <Filter>头文件\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskMgr.h">
+      <Filter>头文件\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Dia_Servers.h">
+      <Filter>头文件\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="PE_DIRECTORY.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PE_EXPORT.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PE_FileHeader.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PE_FOA_Calc.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PE_Import.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PE_OptionalHeader.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PE_Relocation.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PE_Resource.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PE_Section.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PE_Time.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PEDATE.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PEINFO.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="Home.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Speed.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Clean.h">
+      <Filter>头文件\Clean</Filter>
+    </ClInclude>
+    <ClInclude Include="PE_Delay.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PE_TLS.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiVirus.h">
+      <Filter>头文件\AntiVirus</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>头文件\AntiVirus</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSocket.h">
+      <Filter>头文件\AntiVirus</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiVirusScan.h">
+      <Filter>头文件\AntiVirus</Filter>
+    </ClInclude>
+    <ClInclude Include="datatype.h">
+      <Filter>头文件\AntiVirus</Filter>
+    </ClInclude>
+    <ClInclude Include="Boot.h">
+      <Filter>头文件\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="FileMgr.h">
+      <Filter>头文件\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftMgr.h">
+      <Filter>头文件\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="TabCtrl_TOOLS.h">
+      <Filter>头文件\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>头文件\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="MyListCtrl.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyShellListCtrl.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PE.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PEDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dia_Details.cpp">
+      <Filter>源文件\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Dia_Disk1.cpp">
+      <Filter>源文件\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Dia_Ram1.cpp">
+      <Filter>源文件\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Dia_Status1.cpp">
+      <Filter>源文件\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Dia_WinProcess1.cpp">
+      <Filter>源文件\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTab.cpp">
+      <Filter>源文件\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Dia_Heap.cpp">
+      <Filter>源文件\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Dia_Thread.cpp">
+      <Filter>源文件\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="HistogramCtrl.cpp">
+      <Filter>头文件\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Dia_Mod.cpp">
+      <Filter>源文件\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskMgr.cpp">
+      <Filter>源文件\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Home.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Speed.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PE_Delay.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PE_DIRECTORY.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PE_EXPORT.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PE_FileHeader.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PE_FOA_Calc.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PE_Import.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PE_OptionalHeader.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PE_Relocation.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PE_Resource.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PE_Section.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PE_Time.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PE_TLS.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="Dia_Servers.cpp">
+      <Filter>源文件\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="PEDATE.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PEINFO.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="Clean.cpp">
+      <Filter>源文件\Clean</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiVirus.cpp">
+      <Filter>源文件\Antivirus</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiVirusScan.cpp">
+      <Filter>源文件\Antivirus</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSocket.cpp">
+      <Filter>源文件\Antivirus</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>源文件\Antivirus</Filter>
+    </ClCompile>
+    <ClCompile Include="MyListCtrl.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyShellListCtrl.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="TabCtrl_TOOLS.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="Boot.cpp">
+      <Filter>源文件\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="FileMgr.cpp">
+      <Filter>源文件\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="SoftMgr.cpp">
+      <Filter>源文件\TOOLS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PE.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\PE.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\PE.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
